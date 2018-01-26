@@ -355,6 +355,12 @@ button:focus,
 	height:320px;
 }
 
+@media screen and (max-width: 500px) {
+	.certifications-wrapper {
+	   height:420px;
+	}
+}
+
 /*-------------------
  * Skills Progressbar
  *-------------------*/
