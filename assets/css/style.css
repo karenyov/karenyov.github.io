@@ -11,7 +11,7 @@ body {
     line-height: 1.8em;
     color: #3d3d50;
     font-weight: 300;
-    background: url("../img/pattern-bg.jpg") fixed;
+	background-color: #fda246ad;
 }
 
 /* --------------------------------------
@@ -150,11 +150,11 @@ button:focus,
  * -------------------*/
 
 .columns-block {
-    display: -webkit-flex;
+	display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
-    margin: 60px auto;
+    margin: 50px auto;
     padding: 0;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
