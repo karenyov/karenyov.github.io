@@ -117,6 +117,7 @@ function education() {
 function certifications() {
 	
 	var certifications = [
+		{instituicao: 'Treinaweb', curso: 'Java - Spring Boot', certificado: 'certifications/treinaweb/spring-boot.pdf'},
 		{instituicao: 'Treinaweb', curso: 'Java Básico', certificado: 'certifications/treinaweb/java-basico.pdf'},
 		{instituicao: 'Treinaweb', curso: 'Lógica Orientada a Objetos', certificado: 'certifications/treinaweb/logica-orientada-a-objetos-completo.pdf'},
 		{instituicao: 'Treinaweb', curso: 'PHP Básico', certificado: 'certifications/treinaweb/php-basico.pdf'},
