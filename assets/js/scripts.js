@@ -23,10 +23,10 @@ jQuery(function ($) {
 function skills() {
 	var skills = [
 		{linguagem: 'PHP', porcentagem: 90},
-		{linguagem: 'Java', porcentagem: 65},
-		{linguagem: 'Python', porcentagem: 75},
+		{linguagem: 'Java', porcentagem: 85},
+		{linguagem: 'Python', porcentagem: 70},
 		{linguagem: 'HTML & CSS', porcentagem: 80},
-		{linguagem: 'JavaScript & JQuery', porcentagem: 65},
+		{linguagem: 'JavaScript & JQuery', porcentagem: 75},
 		{linguagem: 'Bootstrap', porcentagem: 80}
 	];
 	
