@@ -170,12 +170,12 @@ $(document).ready(function() {
 		pause: true,
 		interval: 4000,
 	});
-	tools();
 	certifications();
 	education();
 	experience();
 	language();
 	skills();
+	tools();
 	
 });
 
