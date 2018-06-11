@@ -176,6 +176,5 @@ $(document).ready(function() {
 	language();
 	skills();
 	tools();
-	
 });
 
