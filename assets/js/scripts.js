@@ -23,11 +23,12 @@ jQuery(function ($) {
 function skills() {
 	var skills = [
 		{linguagem: 'PHP', porcentagem: 90},
-		{linguagem: 'Java', porcentagem: 85},
-		{linguagem: 'Python', porcentagem: 70},
-		{linguagem: 'HTML & CSS', porcentagem: 80},
-		{linguagem: 'JavaScript & JQuery', porcentagem: 75},
-		{linguagem: 'Bootstrap', porcentagem: 80}
+		{linguagem: 'Java', porcentagem: 86},
+		{linguagem: 'Python', porcentagem: 74},
+		{linguagem: 'HTML & CSS', porcentagem: 85},
+		{linguagem: 'JavaScript & JQuery', porcentagem: 86},
+		{linguagem: 'Bootstrap', porcentagem: 87},
+		{linguagem: 'Angular', porcentagem: 85}
 	];
 	
 	var html = '';
@@ -141,37 +142,26 @@ function certifications() {
 	$('#certifications').html(html);
 }
 
-function tools_icons() {
-	var tool_icons =['devicon-angularjs-plain', 
-					  'devicon-bootstrap-plain', 
-					  'devicon-apache-line-wordmark',
-					  'devicon-bitbucket-plain-wordmark',
-					  'devicon-codeigniter-plain-wordmark',
-					  'devicon-doctrine-plain-wordmark',
-					  'devicon-github-plain-wordmark',
-					  'devicon-html5-plain-wordmark',
-					  'devicon-java-plain-wordmark',
-					  'devicon-javascript-plain',
-					  'devicon-zend-plain-wordmark',
-					  'devicon-trello-plain-wordmark',
-					  'devicon-python-plain-wordmark',
-					  'devicon-postgresql-plain-wordmark',
-					  'devicon-php-plain',
-					  'devicon-mysql-plain-wordmark',
-					  'devicon-jquery-plain-wordmark'];
-  	var html = ''
-	html += '<ul class="list-inline list-icons">'
-	for (i = 0; i < tool_icons.length; i++) {		
-		if ((i % 7)== 0 && (i != 0)) {
-			html += '</ul><br>' + 
-					'<ul class="list-inline list-icons">';
-		}
-		html += '<li class="list-inline-item">' +
-					'<i class="'+ tool_icons[i] +'"></i>' + 
-				'</li>';	
+function tools() {
+	var tools = [
+		{description: 'Paradigmas de desenvolvimento de software: Orientação a Objetos'},
+		{description: 'Design Patterns'},
+		{description: 'Utilização de GitHub e Bitbucket'},
+		{description: 'Linguagem Java com Spring Boot e Spring MVC'},
+		{description: 'Servidores: Apache, Tomcat'},
+		{description: 'Banco de Dados: PostgreSQL e MySQL'},
+		{description: 'Aplicações com comunicação REST e SOAP'}
+	];
+	
+	var html = '';
+	for (i = 0; i < tools.length; i++) {
+		html += '<div class="col-md-6">' + 
+					'<i class="fa fa-check" style="color: #3CB371;"></i> ' + tools[i].description + '' +
+				'</div>';
 	}
-	$('#tools_icons').html(html);
+	$('#tools').html(html);
 }
+
 
 // When the DOM is ready, run this function
 $(document).ready(function() {
@@ -180,8 +170,7 @@ $(document).ready(function() {
 		pause: true,
 		interval: 4000,
 	});
-	
-	tools_icons();
+	tools();
 	certifications();
 	education();
 	experience();
