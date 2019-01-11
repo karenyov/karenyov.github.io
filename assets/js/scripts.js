@@ -124,7 +124,7 @@ function certifications() {
 		{instituicao: 'Treinaweb', curso: 'PHP Básico', certificado: 'certifications/treinaweb/php-basico.pdf'},
 		{instituicao: 'Treinaweb', curso: 'Angular 2 Completo', certificado: 'certifications/treinaweb/angular-2-compelto.pdf'},
 		{instituicao: 'Treinaweb', curso: 'Desenvolvendo aplicações mobile com Ionic 2 Completo', certificado: 'certifications/treinaweb/desenvolvendo-aplicacoes-mobile-com-ionic2-completo.pdf'},
-		{instituicao: 'CertiProf', curso: 'Scrum Master Professional', certificado: 'certifications/certiProf/CertiProf-Scrum-Master-Professional.pdf'},
+		{instituicao: 'CertiProf', curso: 'Scrum Foundation Professional Certificate', certificado: 'certifications/certiProf/CertiProf-Scrum-Master-Professional.pdf'},
 	];
 	
 	var html = '';
